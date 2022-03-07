@@ -14,3 +14,5 @@ require (
 	golang.org/x/sys v0.0.0-20210906170528-6f6e22806c34 // indirect
 	golang.org/x/text v0.3.5 // indirect
 )
+
+replace github.com/cilium/ebpf => github.com/joamaki/ebpf v0.8.1-0.20220223162230-d928ec2d207a
